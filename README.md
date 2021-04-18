@@ -55,10 +55,10 @@ const numbers2 = [1, 6, 7, 8];
 
 We can do that using splice method like below
 ```typescript
-const location = 1;
+const insertLocation = 1;
 const deleteCount = 0;
 
-number2.splice(location, deleteCount, ...numbers1); 
+numbers2.splice(insertLocation, deleteCount, ...numbers1); 
 
 console.log(`numbers2 after number1 got merged on location ${location}: ${numbers1}`);
 
