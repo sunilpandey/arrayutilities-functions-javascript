@@ -60,6 +60,6 @@ const deleteCount = 0;
 
 numbers2.splice(insertLocation, deleteCount, ...numbers1); 
 
-console.log(`numbers2 after number1 got merged on location ${insertLocation}: ${numbers1}`);
+console.log(`numbers2 after number1 got merged on location ${insertLocation}: ${numbers2}`);
 
 
