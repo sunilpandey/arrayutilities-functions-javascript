@@ -40,9 +40,9 @@ Push methods are usefull when you have to merge another array into one only at l
 ```typescript
 const numbers1 = [1, 2, 3 , 4];
 const numbers2 = [5, 6, 7, 8];
-numbers1.push(...number2);
+numbers1.push(...numbers2);
 
-console.log(`numbers1 after number2 got merged ${numbers1});
+console.log(`numbers1 after number2 got merged ${numbers1}`);
 ```
 
 ### `splice` method
@@ -60,6 +60,6 @@ const deleteCount = 0;
 
 number2.splice(location, deleteCount, ...numbers1); 
 
-console.log(`numbers2 after number1 got merged on location ${location}: ${numbers1});
+console.log(`numbers2 after number1 got merged on location ${location}: ${numbers1}`);
 
 
